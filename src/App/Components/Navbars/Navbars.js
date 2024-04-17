@@ -1,24 +1,36 @@
 
 import Nav from 'react-bootstrap/Nav';
+import {Button} from "react-bootstrap";
 function Navbars(){
     return(
         <>
-        <Nav className="justify-content-end" activeKey="/home">
+        {/* <Nav className="justify-content-end" activeKey="/home">
             <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link href="/home"><Button>LInk1</Button></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Nav.Link eventKey="link-1"><Button>LInk2</Button></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
+            <Nav.Link eventKey="link-2"><Button>LInk3</Button></Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-                Disabled
-            </Nav.Link>
-            </Nav.Item>
-        </Nav>
+        </Nav> */}
+        <Nav fill variant="tabs" defaultActiveKey="/home">
+      <Nav.Item>
+        <Nav.Link href="/home">Active</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="link-2">Link</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="disabled" disabled>
+          Disabled
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
 
             {/* <h1>Sawon</h1>
             <nav>
