@@ -203,7 +203,7 @@ textarea:focus, input:focus{
 
 input{
   padding: 10px 11px 10px 10px;
-  border: 0px;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 }
 /* Change color of dropdown links on hover */
